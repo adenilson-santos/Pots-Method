@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.apresentation {
+  margin-bottom: 20px;
+}
+
+.apresentation label {
+  font-weight: bold;
+}
+
+.pot {
+  color: rgb(118, 118, 118);
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+#pots-rules__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  background: rgb(138, 5, 190);
+}
+
+.rule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.pots {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.sallary {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  border-bottom: white solid 1px;
+  background: transparent;
+  color: white;
+  text-align: center;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+  font-size: 15px;
+}
+
+.pot {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+  width: 200px;
+}
+
+.pot:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.pot .percent-container, .pot-description p {
+  display: flex;
+  color: rgb(138, 5, 190);
+}
+
+.purple {
+  color: rgb(138, 5, 190);
+}
+
+.pot p {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px 20px;
+  width: 100%;
+  color: rgb(118, 118, 118);
+}
+
+.content article {
+  max-width: 900px;
+  text-align: center;
+}
+
+.content p {
+  margin-bottom: 5px;
+}
+
+.content article .resume {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content article h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.content article .rule-desc h4 {
+  margin-bottom: 10px;
+}
+
+.content article .rule-desc {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#gift img {
+  width: 45px;
+  height: 45px;
+}
+
+#gift {
+  background: #fff;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#copy {
+  color: black;
+  margin-bottom: 20px;
+}
